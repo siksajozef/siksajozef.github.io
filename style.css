@@ -1,0 +1,97 @@
+body{
+  text-align: left;
+  margin: 0px 50px;
+  width: auto;
+}
+header h1, header h2, blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: #222222;
+}
+header h1 {
+  font-size: 64px;
+  margin-left: 205px;
+  border: 1px solid green;
+  line-height: 10px;
+}
+header h2 {
+  font-size: 35px;
+  margin-left: 200px;
+  padding-top: 190px;
+  border: 1px solid green;
+  line-height: 10px;
+}
+header{
+  /*   display: block; */
+  /*   align-items: flex-end; */
+  /*   justify-content: flex-start; */
+  width: 900px;
+  height: 300px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+}
+p, ul{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  font-size: 12px;
+}
+p{
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 1.5;
+}
+ul{
+  list-style-type: square;
+  margin: 0 150px;
+  line-height: 1.5;
+}
+.text1{
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.list1{
+  margin: 0 150px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+h3, h4{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #222222;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 1.5;
+}
+h3{
+  font-variant: small-caps;
+}
+h5{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0 150px;
+  line-height: 1;
+}
+
+blockquote::before{
+  content:'“'
+}
+blockquote{
+  display: flex;
+  background: #222222;
+  width: 700px;
+  height: 150px;
+  color: white;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.qoute{
+  margin: 50px 120px;
+}
